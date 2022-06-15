@@ -1,0 +1,11 @@
+[package]
+name = "rings"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+nannou = "0.18.1"
+palette = {version = "0.5.0", features = ["named_from_str"]}
+rand = "0.8"
